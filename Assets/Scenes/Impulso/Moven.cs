@@ -18,33 +18,13 @@ public class Moven : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        Move();
-    }
 
-    void Move()
-    {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-
-        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
-
-        if (onRamp)
-        {
-            rb.linearVelocity = movement * rampSpeed;
-            Debug.Log("Acelerando: " + rb.linearVelocity);
-        }
-        else
-        {
-            rb.linearVelocity = movement * normalSpeed;
-            //Debug.Log("Velocidad normal: " + rb.linearVelocity);
-        }
-    }
+   
+    
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        print("Gay");
+        
         if (collision.gameObject.CompareTag("Ramp"))
         {
             onRamp = true;
