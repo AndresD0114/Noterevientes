@@ -184,7 +184,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable: {}
+=======
+    nameFileIdTable:
+      burb_norm_sprite_0008_0: 4900903106651543352
+      burb_norm_sprite_0008_1: 3384426809456552425
+      burb_norm_sprite_0008_2: -8720619687544956321
+>>>>>>> origin/main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

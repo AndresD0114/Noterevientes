@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -18,6 +19,22 @@ public class Crecimiento : MonoBehaviour
             Vector3 escala = new Vector3(scaleAmount, scaleAmount, 0);
             Vector3 newScale = transform.localScale + escala;
             StartCoroutine(TransicionDeEscalamiento(escala));
+=======
+using UnityEngine;
+public class Crecimiento : MonoBehaviour
+{
+    public float scaleIncreaseAmount = 0.2f; // Cantidad de aumento de la escala
+    public float scaleDecreaseAmount = 0.2f; // Cantidad de disminución de la escala
+    public float maxScale = 1.5f; // Tamaño máximo del círculo
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Verifica si el objeto con el que colisionó tiene un PolygonCollider2D y la etiqueta "Triangle"
+        if (collision.gameObject.CompareTag("Triangle"))
+        {
+
+            // Agranda el círculo aumentando su escala (radio)
+            Vector3 newScale = transform.localScale + new Vector3(scaleIncreaseAmount, scaleIncreaseAmount, 0);
+>>>>>>> origin/main
             if (newScale.x <= maxScale && newScale.y <= maxScale)
             {
                 transform.localScale = newScale;
@@ -28,6 +45,7 @@ public class Crecimiento : MonoBehaviour
             }
             Destroy(collision.gameObject);
         }
+<<<<<<< HEAD
         //Disminución de escala
         if (collision.gameObject.CompareTag("Square"))
         {
@@ -38,10 +56,19 @@ public class Crecimiento : MonoBehaviour
             if (transform.localScale.x < 0.1f || transform.localScale.y < 0.1f)
             {
                 transform.localScale = new Vector3(minScale, minScale, 0);
+=======
+        if (collision.gameObject.CompareTag("Square"))
+        {
+            transform.localScale -= new Vector3(scaleDecreaseAmount, scaleDecreaseAmount, 0);
+            if (transform.localScale.x < 0.1f || transform.localScale.y < 0.1f)
+            {
+                transform.localScale = new Vector3(0.5f, 0.5f, 0);
+>>>>>>> origin/main
             }
             Destroy(collision.gameObject);
         }
     }
+<<<<<<< HEAD
     IEnumerator TransicionDeEscalamiento(Vector3 escala)
     {
         Vector3 newScale = transform.localScale + escala;
@@ -54,4 +81,6 @@ public class Crecimiento : MonoBehaviour
             yield return new WaitForSeconds(deltaT);
         }
     }   
+=======
+>>>>>>> origin/main
 }
