@@ -52,12 +52,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: burb_norm_sprite_0006_0
+      name: burb_norm_sprite_0001_0
       rect:
         serializedVersion: 2
-        x: 92
-        y: 439
-        width: 134
-        height: 195
+        x: 75
+        y: 149
+        width: 897
+        height: 709
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4598c6cf751657920800000000000000
-      internalID: 2987400958355212628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burb_norm_sprite_0006_1
-      rect:
-        serializedVersion: 2
-        x: 214
-        y: 174
-        width: 755
-        height: 702
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0c85cd2162f2a1d0800000000000000
-      internalID: -3340841474361816054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: burb_norm_sprite_0006_2
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 217
-        width: 235
-        height: 193
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 468ffb8e0e381f610800000000000000
-      internalID: 1653247540222490724
+      spriteID: 2f81b66283b471980800000000000000
+      internalID: -8568297061514274574
       vertices: []
       indices: 
       edges: []
@@ -175,7 +131,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +141,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      burb_norm_sprite_0006_0: 2987400958355212628
-      burb_norm_sprite_0006_1: -3340841474361816054
-      burb_norm_sprite_0006_2: 1653247540222490724
+      burb_norm_sprite_0001_0: -8568297061514274574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

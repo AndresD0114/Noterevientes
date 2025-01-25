@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: 9f4fbb954db75664ab8abd8fac3c25d6
+guid: fc9189177cb367f46ba8c606b3616d25
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3937183133231100284
-    second: burb_norm_sprite_0014_0
+      213: 6491700504586657642
+    second: burb_caida_sprite_0012_0
   - first:
-      213: 75917499946978017
-    second: burb_norm_sprite_0014_1
+      213: -1967680380809512200
+    second: burb_caida_sprite_0012_1
+  - first:
+      213: -6300121539463862376
+    second: burb_caida_sprite_0012_2
+  - first:
+      213: -5411684554302703423
+    second: burb_caida_sprite_0012_3
+  - first:
+      213: -5627436659096885215
+    second: burb_caida_sprite_0012_4
+  - first:
+      213: -8460968516768459346
+    second: burb_caida_sprite_0012_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
