@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6254c931027a71e40a7bdc88daadb6e9
+guid: fa71a2551cdbde1428dbf5d2f5e54e34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9087079911615551326
-    second: Pueblo_0
+      213: 4006468059777179812
+    second: fondo_arbusto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pueblo_0
+      name: fondo_arbusto_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1600
-        height: 900
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e57de61c80bcb1e70800000000000000
-      internalID: 9087079911615551326
+      spriteID: 4a0a7f22975d99730800000000000000
+      internalID: 4006468059777179812
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Pueblo_0: 9087079911615551326
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
