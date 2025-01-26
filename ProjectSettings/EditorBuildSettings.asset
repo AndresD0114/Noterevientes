@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Fade.unity
     guid: 4e75ab837de98b740a5ad37702cb921f
   - enabled: 1
-    path: Assets/Scenes/Pueblo.unity
+    path: Assets/Scenes/pueblo.unity
     guid: c5d1b5a4799aa0f41b89aed5176f5648
   - enabled: 1
     path: Assets/Scenes/arbusto.unity
