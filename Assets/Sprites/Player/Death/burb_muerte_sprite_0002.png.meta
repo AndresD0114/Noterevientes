@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      burb_muerte_sprite_0002_0: -5116355992152145235
+      burb_muerte_sprite_0002_1: 1906118463565936072
+      burb_muerte_sprite_0002_2: -9089126857727804844
+      burb_muerte_sprite_0002_3: 2754687809951015995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
