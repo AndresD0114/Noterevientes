@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PlayerManager : MonoBehaviour
 {
-    public float health = 10f;
+    public float health = 1f;
     public GameObject deathpanel;
     public GameObject body;
     public Animator animCara;
@@ -16,6 +17,10 @@ public class PlayerManager : MonoBehaviour
     public string tpSceneName = "tpescena2"; // Asegúrate de configurar este campo en el inspector
     public string tpSceneName3 = "tpescena3"; // Asegúrate de configurar este campo en el inspector
     public string triangleTag = "Teleport1"; // Tag del objeto triangle
+    public Image blackScreen; // Imagen negra para la transición
+    public Image moonImage; // Imagen de la luna
+    public float fadeDuration = 2f; // Duración del desvanecimiento
+    public float moonDisplayDuration = 3f; // Duración de la visualización de la imagen de la luna
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -23,12 +28,11 @@ public class PlayerManager : MonoBehaviour
         {
             health--;
 
-            if (health <= 0)
+            if (health == 0)
             {
                 animBody.SetTrigger("death");
                 animCara.SetTrigger("death");
-                TeleportToFirstLevel();
-                //deathpanel.SetActive(true);
+                StartCoroutine(HandleDeath());
             }
         }
         else if (collision.gameObject.CompareTag(designatedObjectTag))
@@ -43,6 +47,33 @@ public class PlayerManager : MonoBehaviour
         {
             TeleportToSpecificScene3();
         }
+    }
+
+    private IEnumerator HandleDeath()
+    {
+        // Activa la imagen negra y la imagen de la luna
+        blackScreen.gameObject.SetActive(true);
+        moonImage.gameObject.SetActive(true);
+
+        // Desvanece la pantalla a negro
+        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
+        {
+            Color color = blackScreen.color;
+            color.a = Mathf.Lerp(0, 1, t / fadeDuration);
+            blackScreen.color = color;
+            yield return null;
+        }
+
+        // Asegúrate de que la pantalla esté completamente negra
+        Color finalColor = blackScreen.color;
+        finalColor.a = 1;
+        blackScreen.color = finalColor;
+
+        // Espera durante la duración de la visualización de la imagen de la luna
+        yield return new WaitForSeconds(moonDisplayDuration);
+
+        // Carga el menú
+        SceneManager.LoadScene(firstLevelName);
     }
 
     private void TeleportToNextLevel()
@@ -78,7 +109,6 @@ public class PlayerManager : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(tpSceneName3))
         {
-            //SceneManager.LoadScene(tpSceneName3);
             retry();
         }
         else

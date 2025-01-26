@@ -5,7 +5,6 @@ public class BubblePhysics : MonoBehaviour
     [Header("Bubble Movement Parameters")]
     public Impulso impulso;
     [SerializeField] private float pushForce = 5f;
-    [SerializeField] private float pushRadius = 2f;
     [SerializeField] private float dampingFactor = 0.995f;
     private Rigidbody2D rb;
     private Vector2 velocity;

@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 5f402d0e5b733b842a089c29c0f305e0
+guid: de82dfbae8bdfc2478d74f9ba6cd973e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2099454076993707005
-    second: piedras_0
+      213: -1495636479084036639
+    second: muerte_0
   - first:
-      213: -2006833340330160411
-    second: piedras_1
+      213: -9146826682594036208
+    second: muerte_1
   - first:
-      213: -8089053849419193825
-    second: piedras_2
+      213: -8035738270839704436
+    second: muerte_2
+  - first:
+      213: 6411007131442772949
+    second: muerte_3
+  - first:
+      213: 8438921908048487067
+    second: muerte_4
+  - first:
+      213: 1148748271051980919
+    second: muerte_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: piedras_0
+      name: muerte_0
       rect:
         serializedVersion: 2
-        x: 308
-        y: 778
-        width: 9
-        height: 9
+        x: 501
+        y: 564
+        width: 92
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfb94711c52c22d10800000000000000
-      internalID: 2099454076993707005
+      spriteID: 1ed7417eb8e6e3be0800000000000000
+      internalID: -1495636479084036639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: piedras_1
+      name: muerte_1
       rect:
         serializedVersion: 2
-        x: 347
-        y: 748
-        width: 22
-        height: 35
+        x: 628
+        y: 578
+        width: 57
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5eec53aa5bb4624e0800000000000000
-      internalID: -2006833340330160411
+      spriteID: 016fae91891ff0180800000000000000
+      internalID: -9146826682594036208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: piedras_2
+      name: muerte_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 407
-        width: 887
-        height: 276
+        x: 581
+        y: 506
+        width: 66
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +174,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f12ec50b168edbf80800000000000000
-      internalID: -8089053849419193825
+      spriteID: c84769a2e925b7090800000000000000
+      internalID: -8035738270839704436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 325
+        width: 766
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db7422e40978f850800000000000000
+      internalID: 6411007131442772949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 244
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92ed7893c21d1570800000000000000
+      internalID: 8438921908048487067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte_5
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 266
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770c568577c21ff00800000000000000
+      internalID: 1148748271051980919
       vertices: []
       indices: 
       edges: []
@@ -175,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      piedras_0: 2099454076993707005
-      piedras_1: -2006833340330160411
-      piedras_2: -8089053849419193825
+      muerte_0: -1495636479084036639
+      muerte_1: -9146826682594036208
+      muerte_2: -8035738270839704436
+      muerte_3: 6411007131442772949
+      muerte_4: 8438921908048487067
+      muerte_5: 1148748271051980919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
