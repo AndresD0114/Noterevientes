@@ -21,6 +21,7 @@ public class PlayerManager : MonoBehaviour
     public Image moonImage; // Imagen de la luna
     public float fadeDuration = 2f; // Duración del desvanecimiento
     public float moonDisplayDuration = 3f; // Duración de la visualización de la imagen de la luna
+    public PlayerController playerController;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -33,6 +34,7 @@ public class PlayerManager : MonoBehaviour
                 animBody.SetTrigger("death");
                 animCara.SetTrigger("death");
                 StartCoroutine(HandleDeath());
+                playerController.Morir();
             }
         }
         else if (collision.gameObject.CompareTag(designatedObjectTag))

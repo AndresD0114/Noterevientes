@@ -4,15 +4,20 @@ using System.Collections;
 public class Impulso : MonoBehaviour
 {
     public float rampSpeed = 50f;
-
     public bool onRamp = false;
+    public PlayerController playerController;
 
+    void Start()
+    {
+        //playerController = GetComponentInParent<PlayerController>();
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ramp"))
         {
             onRamp = true;
+            playerController.Dash();
             Debug.Log("En la rampa - Acelerando.");
         }
     }
@@ -29,5 +34,6 @@ public class Impulso : MonoBehaviour
     void DesactivarRampa()
     {
         onRamp = false;
+        //playerController.SetImpulso(false);
     }
 }

@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 2835808869032235428}
   - component: {fileID: 8239297339228323353}
   - component: {fileID: 6120663099907152814}
+  - component: {fileID: 4826463080183067319}
   m_Layer: 0
   m_Name: Burbuja
   m_TagString: Player
@@ -193,6 +194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rampSpeed: 5
   onRamp: 0
+  playerController: {fileID: 4826463080183067319}
 --- !u!50 &2835808869032235428
 Rigidbody2D:
   serializedVersion: 5
@@ -284,6 +286,20 @@ MonoBehaviour:
   moonImage: {fileID: 0}
   fadeDuration: 2
   moonDisplayDuration: 3
+  playerController: {fileID: 4826463080183067319}
+--- !u!114 &4826463080183067319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5080649604513552216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f449bd11bacd064b9cccacdadf13079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7846144059674800255}
 --- !u!1 &8083636225850266473
 GameObject:
   m_ObjectHideFlags: 0
