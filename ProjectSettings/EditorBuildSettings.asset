@@ -6,23 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Fade.unity
-    guid: 4e75ab837de98b740a5ad37702cb921f
-  - enabled: 1
-    path: Assets/Scenes/PrimeraVersion-Pueblo.unity
-    guid: c5d1b5a4799aa0f41b89aed5176f5648
+    path: Assets/Scenes/Menu.unity
+    guid: c5d35fa71f9bcbf4892aa86ec4c6383f
   - enabled: 1
     path: Assets/Scenes/tpescena1.unity
     guid: b3c9434c45168f34293a1bbed7012b1a
   - enabled: 1
     path: Assets/Scenes/tpescena2.unity
     guid: 9b1820b455288c8458e77173b73defe1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/tpescena3.unity
     guid: 9db183bebc1b7b0478f1458da78b295a
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: c5d35fa71f9bcbf4892aa86ec4c6383f
+  - enabled: 0
+    path: Assets/Scenes/Fade.unity
+    guid: 4e75ab837de98b740a5ad37702cb921f
+  - enabled: 0
+    path: Assets/Scenes/PrimeraVersion-Pueblo.unity
+    guid: c5d1b5a4799aa0f41b89aed5176f5648
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
