@@ -163,7 +163,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   impulso: {fileID: 5744461870905097273}
   pushForce: 5
-  pushRadius: 2
   dampingFactor: 0.995
 --- !u!114 &4753540884558375186
 MonoBehaviour:
@@ -278,9 +277,13 @@ MonoBehaviour:
   firstLevelName: Menu
   designatedObjectTag: Teleport
   squareTag: Teleport
-  tpSceneName: tpescene2
-  tpSceneName3: tpescene3
-  triangleTag: Triangle
+  tpSceneName: tpescena2
+  tpSceneName3: tpescena3
+  triangleTag: Teleport1
+  blackScreen: {fileID: 0}
+  moonImage: {fileID: 0}
+  fadeDuration: 2
+  moonDisplayDuration: 3
 --- !u!1 &8083636225850266473
 GameObject:
   m_ObjectHideFlags: 0
