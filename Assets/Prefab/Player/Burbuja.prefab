@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impulso: {fileID: 5744461870905097273}
-  pushForce: 10
+  pushForce: 5
   pushRadius: 2
   dampingFactor: 0.995
 --- !u!114 &4753540884558375186
@@ -209,7 +209,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 4.5
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -255,8 +255,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.07471466, y: -0.017931461}
-  m_Radius: 0.4551711
+  m_Offset: {x: 0.13498533, y: -0.02208817}
+  m_Radius: 0.6325369
 --- !u!114 &6120663099907152814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,7 +274,13 @@ MonoBehaviour:
   body: {fileID: 3048408562717107173}
   animCara: {fileID: 1166203439338739345}
   animBody: {fileID: 7846144059674800255}
-  nextSceneName: 
+  nextSceneName: tpescena2
+  firstLevelName: Menu
+  designatedObjectTag: Teleport
+  squareTag: Teleport
+  tpSceneName: tpescene2
+  tpSceneName3: tpescene3
+  triangleTag: Triangle
 --- !u!1 &8083636225850266473
 GameObject:
   m_ObjectHideFlags: 0

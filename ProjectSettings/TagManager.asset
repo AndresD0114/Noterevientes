@@ -11,6 +11,9 @@ TagManager:
   - enemy
   - items/crecimiento
   - items/decrecimiento
+  - Teleport
+  - teleport1
+  - Teleport1
   layers:
   - Default
   - TransparentFX
