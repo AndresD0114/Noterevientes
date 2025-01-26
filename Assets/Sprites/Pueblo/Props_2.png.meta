@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: 409bb36062d90aa4ba11b4054cb514fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3591024941085345379
+    second: Props_2_0
+  - first:
+      213: -830287921966688396
+    second: Props_2_1
+  - first:
+      213: -2595652490638192893
+    second: Props_2_2
+  - first:
+      213: 1992263449647806233
+    second: Props_2_3
+  - first:
+      213: -1790214450184873981
+    second: Props_2_4
+  - first:
+      213: -34537128790956728
+    second: Props_2_5
+  - first:
+      213: 8456530062695488301
+    second: Props_2_6
+  - first:
+      213: -2475969153996884136
+    second: Props_2_7
+  - first:
+      213: -7456841530262370531
+    second: Props_2_8
+  - first:
+      213: -5565842840498071627
+    second: Props_2_9
+  - first:
+      213: 4774496382760207656
+    second: Props_2_10
+  - first:
+      213: 1643235743137632146
+    second: Props_2_11
+  - first:
+      213: -7567939262067860594
+    second: Props_2_12
+  - first:
+      213: -450711139139017546
+    second: Props_2_13
+  - first:
+      213: 8137172143104871731
+    second: Props_2_14
+  - first:
+      213: -6516791992255293393
+    second: Props_2_15
+  - first:
+      213: 7343034759453334778
+    second: Props_2_16
+  - first:
+      213: -7803114098968599003
+    second: Props_2_17
+  - first:
+      213: -8176510270837822211
+    second: Props_2_18
+  - first:
+      213: -6394311002790560697
+    second: Props_2_19
+  - first:
+      213: 1576399419949874175
+    second: Props_2_20
+  - first:
+      213: 8877896285447266762
+    second: Props_2_21
+  - first:
+      213: 6928008402415068072
+    second: Props_2_22
+  - first:
+      213: -7548749221718488296
+    second: Props_2_23
+  - first:
+      213: 7338153007464614798
+    second: Props_2_24
+  - first:
+      213: 6612270909221360947
+    second: Props_2_25
+  - first:
+      213: 3647087594588014227
+    second: Props_2_26
+  - first:
+      213: 2647325739671042076
+    second: Props_2_27
+  - first:
+      213: 4811855646839548941
+    second: Props_2_28
+  - first:
+      213: 2260722878512767897
+    second: Props_2_29
+  - first:
+      213: 6228781749629800287
+    second: Props_2_30
+  - first:
+      213: -8023315840490452727
+    second: Props_2_31
+  - first:
+      213: 7905066459784154651
+    second: Props_2_32
+  - first:
+      213: 8206135176828514868
+    second: Props_2_33
+  - first:
+      213: -7953192582682255551
+    second: Props_2_34
+  - first:
+      213: 1254709871677325446
+    second: Props_2_35
+  - first:
+      213: 1650997623116589212
+    second: Props_2_36
+  - first:
+      213: 7780621052080447028
+    second: Props_2_37
+  - first:
+      213: -5489138343253383407
+    second: Props_2_38
+  - first:
+      213: -7549418636986667016
+    second: Props_2_39
+  - first:
+      213: -7359504889734003592
+    second: Props_2_40
+  - first:
+      213: -5716067900078912390
+    second: Props_2_41
+  - first:
+      213: -1639009987503832449
+    second: Props_2_42
+  - first:
+      213: 7218854032012767647
+    second: Props_2_43
+  - first:
+      213: 8819739121926135115
+    second: Props_2_44
+  - first:
+      213: 6416724512110746787
+    second: Props_2_45
+  - first:
+      213: 387008816429341707
+    second: Props_2_46
+  - first:
+      213: 2499197891599943033
+    second: Props_2_47
+  - first:
+      213: -2911723312924993043
+    second: Props_2_48
+  - first:
+      213: -3346883282940712991
+    second: Props_2_49
+  - first:
+      213: -7036703753351968520
+    second: Props_2_50
+  - first:
+      213: 2919686250187630083
+    second: Props_2_51
+  - first:
+      213: -6989958068990331664
+    second: Props_2_52
+  - first:
+      213: 7338286501798095875
+    second: Props_2_53
+  - first:
+      213: 8233505873855358918
+    second: Props_2_54
+  - first:
+      213: 3142858942966652053
+    second: Props_2_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Props_2_0
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1301
+        width: 634
+        height: 888
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410e8bb0dea89034cad272f7015bae2b
+      internalID: -334972875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_2_1
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1692
+        width: 258
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85463761e5d70843ad4f6155335b987
+      internalID: 1691552314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_2_2
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1692
+        width: 251
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f79f20b238c0143a4c5539dfbfda33
+      internalID: -1131529924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_2_3
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1697
+        width: 251
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc44be9f46899d145aff37b315ad9834
+      internalID: 677082195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_2_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 269
+        width: 866
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c42bf67adecdf4f88a67e88c681be0
+      internalID: 1663972339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_2_6
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1245
+        width: 726
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6e3dced85354145957700efac7cba2
+      internalID: -1883222921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_2_16
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 287
+        width: 640
+        height: 790
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fbcd018fc693348af7de0658eade30
+      internalID: 2098384700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bf9d0872bb4a2e540a9ea6cbcb6d16c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Props_2_0: -334972875
+      Props_2_1: 1691552314
+      Props_2_10: -534075973
+      Props_2_11: 681696444
+      Props_2_12: 1040254207
+      Props_2_13: -323884051
+      Props_2_14: 1842542280
+      Props_2_15: 745865525
+      Props_2_16: 2098384700
+      Props_2_17: -1116349797
+      Props_2_18: -1682136463
+      Props_2_19: 1697793415
+      Props_2_2: -1131529924
+      Props_2_20: -701363071
+      Props_2_21: 2030963572
+      Props_2_22: -1895898162
+      Props_2_23: 1195842224
+      Props_2_24: -518671821
+      Props_2_25: 18727569
+      Props_2_26: -578990476
+      Props_2_27: 699773219
+      Props_2_28: -579417798
+      Props_2_29: -987368371
+      Props_2_3: 677082195
+      Props_2_30: 1411890578
+      Props_2_31: 164802250
+      Props_2_32: -1865552988
+      Props_2_33: -153565711
+      Props_2_34: 1233095897
+      Props_2_35: -91274275
+      Props_2_36: -1407283122
+      Props_2_37: 1682609973
+      Props_2_38: 2027480313
+      Props_2_39: 1120111889
+      Props_2_4: 1828962587
+      Props_2_40: 1877277619
+      Props_2_41: 1457723664
+      Props_2_42: -302501926
+      Props_2_43: -974316227
+      Props_2_44: -1235463863
+      Props_2_45: -1681939823
+      Props_2_46: 459913519
+      Props_2_47: 1053037936
+      Props_2_48: 99529746
+      Props_2_49: -666245770
+      Props_2_5: 1663972339
+      Props_2_6: -1883222921
+      Props_2_7: -1995961617
+      Props_2_8: 680423263
+      Props_2_9: -1359472846
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
