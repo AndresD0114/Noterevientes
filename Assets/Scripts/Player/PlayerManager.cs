@@ -78,7 +78,8 @@ public class PlayerManager : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(tpSceneName3))
         {
-            SceneManager.LoadScene(tpSceneName3);
+            //SceneManager.LoadScene(tpSceneName3);
+            retry();
         }
         else
         {
