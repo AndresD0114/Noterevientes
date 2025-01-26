@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tpescena2.unity
     guid: 9b1820b455288c8458e77173b73defe1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/tpescena3.unity
     guid: 9db183bebc1b7b0478f1458da78b295a
   - enabled: 1
