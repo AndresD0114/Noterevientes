@@ -6,10 +6,11 @@ public class Crecimiento : MonoBehaviour
     public float maxScale = 1.5f; // Tamaño máximo del círculo
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        print(collision.gameObject.tag);
+        print(collision.gameObject.CompareTag("items/crecimiento"));
         // Verifica si el objeto con el que colisionó tiene un PolygonCollider2D y la etiqueta "Triangle"
-        if (collision.gameObject.CompareTag("Triangle"))
+        if (collision.gameObject.CompareTag("items/crecimiento"))
         {
-
             // Agranda el círculo aumentando su escala (radio)
             Vector3 newScale = transform.localScale + new Vector3(scaleIncreaseAmount, scaleIncreaseAmount, 0);
             if (newScale.x <= maxScale && newScale.y <= maxScale)
@@ -22,7 +23,7 @@ public class Crecimiento : MonoBehaviour
             }
             Destroy(collision.gameObject);
         }
-        if (collision.gameObject.CompareTag("Square"))
+        if (collision.gameObject.CompareTag("items/decrecimiento"))
         {
             transform.localScale -= new Vector3(scaleDecreaseAmount, scaleDecreaseAmount, 0);
             if (transform.localScale.x < 0.1f || transform.localScale.y < 0.1f)

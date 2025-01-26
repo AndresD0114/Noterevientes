@@ -8,6 +8,9 @@ TagManager:
   - Square
   - Triangle
   - Objeto1Tag
+  - enemy
+  - items/crecimiento
+  - items/decrecimiento
   layers:
   - Default
   - TransparentFX
